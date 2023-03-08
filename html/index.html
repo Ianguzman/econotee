@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Econote</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+		<div id="contenedor">
+			<nav>
+				<ul>
+					<li><a href="#imagen">Inicio</a></li>
+					<li><a href="#productos">Productos</a></li>
+					<li><a href="#rs">Redes sociales</a></li>
+					<li><a href="#cont">Contacto</a></li>
+                    <li><a href="#shop">Carrito</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+    <div id="imagen">
+        
+    </div>
+    <hr>
+	<section id="productos">
+		<section id="catalogo">
+            <h2>Catálogo de productos</h2>
+            <div class="productos">
+              <div class="producto">
+                <img src="producto1.jpg" alt="Producto 1">
+                <h3>Producto 1</h3>
+                <p>Descripción del producto 1</p>
+                <p class="precio">$15.00</p>
+                <button>Añadir al carrito</button>
+              </div>
+              <div class="producto">
+                <img src="producto2.jpg" alt="Producto 2">
+                <h3>Producto 2</h3>
+                <p>Descripción del producto 2</p>
+                <p class="precio">$20.00</p>
+                <button>Añadir al carrito</button>
+              </div>
+              <div class="producto">
+                <img src="producto3.jpg" alt="Producto 3">
+                <h3>Producto 3</h3>
+                <p>Descripción del producto 3</p>
+                <p class="precio">$10.00</p>
+                <button>Añadir al carrito</button>
+              </div>
+            </div>
+          </section>
+          
+	</section>
+    <hr>
+    <section id="rs">
+        <h1 class="col-md-6 mx-auto text-center">Nuestras Redes Sociales</h1>
+        <h2 class="col-md-6 mx-auto text-center">¡Visitanos!</h2>
+        
+        <div class="row">
+			<div class="col-sm-6 col-md-4 col-lg-3 ">
+				<a href="#" class="btn btn-outline-primary btn-block mb-3">
+					<i class="fab fa-facebook-f mr-2"></i> Facebook
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<a href="#" class="btn btn-outline-info btn-block mb-3">
+					<i class="fab fa-twitter mr-2"></i> Twitter
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<a href="#" class="btn btn-outline-danger btn-block mb-3">
+					<i class="fab fa-instagram mr-2"></i> Instagram
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<a href="#" class="btn btn-outline-success btn-block mb-3">
+					<i class="fab fa-linkedin-in mr-2"></i> LinkedIn
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<a href="#" class="btn btn-outline-danger btn-block mb-3">
+					<i class="fab fa-youtube mr-2"></i> YouTube
+				</a>
+			</div>
+		</div>
+	</section>
+<hr>
+    <section id="cont">
+		<form action="#" method="post">
+            <div>
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="asunto">Asunto:</label>
+              <input type="text" id="asunto" name="asunto" required>
+            </div>
+            <div>
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+	</section>
+    <hr>
+    <section id="shop">
+		<section id="carrito">
+            <h2>Carrito de compras</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Producto</th>
+                  <th>Precio</th>
+                  <th>Cantidad</th>
+                  <th>Subtotal</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="producto1.jpg" alt="Producto 1">
+                    <h3>Producto 1</h3>
+                    <p>Descripción del producto 1</p>
+                  </td>
+                  <td>$15.00</td>
+                  <td>
+                    <input type="number" value="1" min="1">
+                  </td>
+                  <td>$15.00</td>
+                  <td>
+                    <button><i class="fas fa-trash-alt"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="producto2.jpg" alt="Producto 2">
+                    <h3>Producto 2</h3>
+                    <p>Descripción del producto 2</p>
+                  </td>
+                  <td>$20.00</td>
+                  <td>
+                    <input type="number" value="1" min="1">
+                  </td>
+                  <td>$20.00</td>
+                  <td>
+                    <button><i class="fas fa-trash-alt"></i></button>
+                  </td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3"></td>
+                  <td>Total:</td>
+                  <td>$35.00</td>
+                </tr>
+              </tfoot>
+            </table>
+          </section>
+          
+	</section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
